@@ -1,0 +1,27 @@
+--infor_movie1--
+Name Rating Genre Year Realeased Score Votes Director Writer Star Country Budget Gross Company
+--> Name Rating Genre Year Realeased Score Votes Director Writer Star Country Budget Gross Company Runtime 2012-2019
+Xóa cột Realeased
+Vẫn có null Rating Score Votes Writer Star Country Budget Gross Company Runtime
+
+--infor_movie2--
+NameMovie EnName Year Rating_Runtime IMDbRating CustomerRating Popular Genre Decribe Director Writer_Star User_Review CriticReviews_Metascore
+Lấy EnName (Null thì lấy từ cột NameMovie sang) xóa cột NameMovie --> Name
+Rating --> Rating
+Genre --> Genre
+Year --> Year
+IMDbRating xóa /10 --> Score
+Lấy cột CustomerRating đổi 'K' thành '000' đổi 'M' thành '000000' --> Votes
+Director --> Director
+Writer --> Writer
+Star --> Star
+Country --> Null
+Budget --> Null
+Gross --> Null 
+Company --> Null
+Cột Runtime chuyển định dạng sang 'phút' --> Runtime
+Xóa --> Popular NameMovie Decribe User_Review CriticReviews_Metascore 2020 - 2022
+Xóa trùng bước cuối cùng
+
+Lấy cột Votes đổi 'K' thành '000' đổi 'M' thành '000000' --> Votes
+Cột Runtime chuyển định dạng sang 'phút' --> Runtime
